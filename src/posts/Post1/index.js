@@ -28,19 +28,19 @@ export function Post1() {
           </Text>
           <View style={styles.containerInteracoes}>
             <View style={{ flexDirection: "row" }}>
-              <Feather name="message-circle" size={20} color="grey" />
+              <Feather name="message-circle" size={20} color="#BFBFBF" />
               <Text style={styles.textInt}>30</Text>
             </View>
             <View style={{ flexDirection: "row" }}>
-              <FontAwesome5 name="retweet" size={20} color="grey" />
+              <FontAwesome5 name="retweet" size={20} color="#BFBFBF" />
               <Text style={styles.textInt}>467</Text>
             </View>
             <View style={{ flexDirection: "row" }}>
-              <Entypo name="heart-outlined" size={20} color="grey" />
+              <Entypo name="heart-outlined" size={20} color="#BFBFBF" />
               <Text style={styles.textInt}>2345</Text>
             </View>
             <View style={{ flexDirection: "row" }}>
-              <AntDesign name="sharealt" size={20} color="grey" />
+              <AntDesign name="sharealt" size={20} color="#BFBFBF" />
             </View>
           </View>
         </View>

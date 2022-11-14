@@ -11,11 +11,14 @@ export const styles = StyleSheet.create({
         borderColor:'grey',
         borderBottomWidth: 1,
         padding: 15,
+     
+
         },
 
     fotoUsuario:{
         width: '20%',
         paddingTop: 15,
+        
         },
         gatinho:{
                 height: 50,
@@ -44,11 +47,13 @@ export const styles = StyleSheet.create({
             color: 'grey'
         },
         textoPost:{
+            paddingTop: 6,
             width: '78%',
         },
 
         texto:{
         color: 'white',
+        fontSize: 12,
         },
 
         containerInteracoes:{
@@ -61,7 +66,7 @@ export const styles = StyleSheet.create({
         textInt:{
             color: 'grey',
             fontWeight:'400',
-
+            paddingLeft: 8,
         }
 
 })
